@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PasswordValidatorTest {
 
     @Test
-    void passwordValidator_testing_very_weak_password() {
+    void veryWeakPassword() {
 
         PasswordValidator pValidClass = new PasswordValidator();
 
@@ -18,7 +18,7 @@ class PasswordValidatorTest {
     }
 
     @Test
-    void passwordValidator_testing_weak_password() {
+    void weakPassword() {
 
         PasswordValidator pValidClass = new PasswordValidator();
 
@@ -29,7 +29,7 @@ class PasswordValidatorTest {
     }
 
     @Test
-    void passwordValidator_testing_strong_password() {
+    void strongPassword() {
 
         PasswordValidator pValidClass = new PasswordValidator();
 
@@ -40,7 +40,7 @@ class PasswordValidatorTest {
     }
 
     @Test
-    void passwordValidator_testing_very_strong_password() {
+    void veryStrongPassword() {
 
         PasswordValidator pValidClass = new PasswordValidator();
 
